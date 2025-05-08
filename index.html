@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taller de procesos</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Taller de procesos</h1>
+    <h2 id="subtitulo-modelo">Modelo en cascada</h2>
+  </header>
+
+  <div class="container">
+    <button class="switch-btn" onclick="cambiarModelo()">Cambiar a modelo iterativo</button>
+    <img id="imagen-modelo" src="assets/diagrama_cascada.png" alt="Diagrama de Gantt - Modelo en cascada" />
+  </div>
+
+  <div class="conclusiones">
+    <h2>Conclusiones</h2>
+
+    <div id="conclusion-cascada" class="conclusion-modelo active">
+        <h3>✅ Modelo en Cascada</h3>
+        <p>
+            El enfoque en cascada aplicado al desarrollo del juego <strong>Arkanoid</strong> permitió una planificación
+            estructurada y detallada desde el inicio. Esto facilitó la definición clara de objetivos, tareas y tiempos
+            de ejecución. Cada fase se completó completamente antes de avanzar a la siguiente, lo que redujo la ambigüedad
+            y mejoró la documentación del proceso.
+        </p>
+        <p>
+            Este modelo es ideal cuando los requisitos están bien definidos desde el principio y no se prevén grandes cambios.
+            Sin embargo, su <strong>rigidez</strong> puede ser una desventaja, ya que dificulta la adaptación a nuevas ideas o
+            retroalimentación surgida en fases avanzadas.
+        </p>
+    </div>
+
+    <div id="conclusion-iterativo" class="conclusion-modelo">
+        <h3>🔁 Modelo Iterativo</h3>
+        <p>
+            En contraste, el modelo iterativo permite entregar versiones funcionales del juego en ciclos cortos, lo que facilita
+            detectar errores tempranamente e incorporar mejoras de forma continua. Esta estrategia resulta muy útil para refinar
+            aspectos como la jugabilidad, la estética y la experiencia del usuario.
+        </p>
+        <p>
+            Aunque requiere mayor coordinación y pruebas frecuentes, ofrece una <strong>mayor flexibilidad</strong> y capacidad
+            de adaptación. Esto se traduce en un producto final más pulido y mejor alineado con las expectativas del jugador.
+        </p>
+    </div>
+  </div>
+  <div class="equipo">
+    <h2>Integrantes del equipo</h2>
+    <ul>
+      <li>Pablo Garcés</li>
+      <li>Jilmar Veloza</li>
+      <li>Carmen Juliana Marín</li>
+      <li>Stefania Rendón</li>
+    </ul>
+  </div>
+  
+
+  <script src="js/script.js"></script>
+</body>
+</html>
